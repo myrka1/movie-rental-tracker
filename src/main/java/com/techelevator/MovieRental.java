@@ -54,17 +54,6 @@ public class MovieRental {
 
     @Override
     public String toString() {
-        //"MOVIE - {title} - {format} {rental price}"
-        /*return "MovieRental{" +
-                "title='" + title + '\'' +
-                ", format='" + format + '\'' +
-                ", isPremium=" + isPremium +
-                ", rentalPrice=" + rentalPrice +
-                '}';
-
-         */
-        return "MOVIE - " + title +
-                " - " + format +
-                " " + rentalPrice;
+        return "MOVIE - " + title + " - " + format + " " + rentalPrice;
     }
 }
